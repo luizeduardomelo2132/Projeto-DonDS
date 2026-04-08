@@ -28,9 +28,9 @@ class JogosController{
                 filtro.ano = req.query.ano
             }
 
-            if(req.query.finalizado){
-                filtro.finalizado = req.query.finalizado
-            }
+            if (req.query.finalizado !== undefined) {
+                filtro.finalizado = req.query.finalizado === "true";
+}
 
             const jogos = await Jogo.find(filtro)
 
