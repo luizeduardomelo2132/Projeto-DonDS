@@ -1,4 +1,4 @@
-const Pessoa = require("../models/pessoas")
+const Pessoa = require("../models/Person")
 
 class PessoasController{
 

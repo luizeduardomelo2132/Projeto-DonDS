@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
-
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/luizeduardomelo2132/Projeto-DonDS/issues"
   },
-  "homepage": "https://github.com/luizeduardomelo2132/Projeto-DonDS#readme"
+  "homepage": "https://github.com/luizeduardomelo2132/Projeto-DonDS#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "config": "^4.4.1",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  }
 }

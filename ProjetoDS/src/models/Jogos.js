@@ -1,8 +1,6 @@
-src/models/jogos.js
-
 const mongoose = require("mongoose")
 
-const jogoSchema = new mongoose.Schema({
+const jogoSchema = mongoose.model('Jogo', {
 
     nome:{
         type:String,
@@ -32,4 +30,4 @@ const jogoSchema = new mongoose.Schema({
 
 })
 
-module.exports = mongoose.model("Jogo", jogoSchema)
+module.exports = jogoSchema

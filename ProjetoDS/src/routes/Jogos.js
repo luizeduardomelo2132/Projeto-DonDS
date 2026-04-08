@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-const JogosController = require("../controllers/jogosController")
+const JogosController = require("../controllers/JogosController")
 
 router.post("/jogos",JogosController.create)
 router.get("/jogos",JogosController.getAll)
