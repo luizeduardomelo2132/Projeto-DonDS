@@ -1,4 +1,4 @@
-const Jogo = require("../models/jogos")
+const Jogo = require("./models/jogos")
 
 class JogosController{
 
